@@ -12,7 +12,7 @@ const banner = () => {
     const loadBanner = window.addEventListener('load', () => {
         setInterval(() => {
             console.log('hey hey ')
-        }, 2000)
+        }, 3000)
     })
 
 
