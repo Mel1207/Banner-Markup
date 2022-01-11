@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+body .banner-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+body .banner-container .left-aside {
+  padding-left: 15vh;
+}
+body .banner-container .left-aside h1 {
+  color: #fff;
+  font-size: 3.125rem;
+  margin-bottom: 1.2rem;
+}
+body .banner-container .left-aside p {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  margin-bottom: 3rem;
+}
+body .banner-container .left-aside .btn {
+  outline: none;
+  border: none;
+  height: 45px;
+  width: 177px;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background: #A8E02D;
+  cursor: pointer;
+}
+body .banner-container .left-aside .btn img {
+  margin-left: 20px;
+}
+body .banner-container .right-aside {
+  position: relative;
+}
+body .banner-container .right-aside .main-mockup {
+  position: relative;
+  z-index: 1;
+}
+body .banner-container .right-aside .img-object {
+  position: absolute;
+  top: -44px;
+  right: 55px;
+}
+body .banner-logo {
+  position: absolute;
+  bottom: 50px;
+  left: 11%;
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  color: #fff;
+}
+body .banner-logo img {
+  margin-left: 10px;
+  height: 25px;
+  width: auto;
+}
+
+/*# sourceMappingURL=main.css.map */
