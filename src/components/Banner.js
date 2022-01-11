@@ -31,10 +31,10 @@ const banner = () => {
                     <button className='btn'>Register Now <img src={nextIcon} alt="next icon" /></button>
                 </div>
                 <div className='right-aside'>
-                    <img src={MockupImg} alt="" className='main-mockup'/>
-                    <img src={objectImg} alt="" className='img-object'/>
+                    <img src={MockupImg} alt="main mockup" className='main-mockup'/>
+                    <img src={objectImg} alt="img object" className='img-object'/>
                 </div>
-                <div className='banner-logo'>Powered by: <img src={bannerLogo} /></div>
+                <div className='banner-logo'>Powered by: <img src={bannerLogo} alt='banner logo' /></div>
             </div>
         </div>
         
